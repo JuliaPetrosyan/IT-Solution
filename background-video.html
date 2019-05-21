@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .section h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 1;
+  }
+  .video-container {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+  }
+</style>
+</head>
+
+<body>
+<div class="section">
+  <h1>Welcome To Paradise</h1>
+  <div class="video-container">
+    <video autoplay loop muted>
+      <source src="video-1556830385.mp4" type="video/mp4">
+    </video>
+   </div>
+</div>
+
+</body>
+</html>
